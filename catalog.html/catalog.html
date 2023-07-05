@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title> Седона-Гостиницы</title>
+  </head>
   <header class="page-header">
     <nav class="navigation">
       <ul class="navigation-list">
         <li>
-          <img class="logo" src="#" alt="Логотип Седона">
+          <img class="logo-img" src="images/logo_header.png"  width="140" height="70"  alt="Логотип Седона">
           <a href="main.html"> Главное
           </a>
         </li>
@@ -40,7 +44,6 @@
       <ul class="breadcrums">
         <li class="breadcrums-item">
           <a class="breadcrums-link" href="index.html"> Главная</a>
-          </a>
         </li>
         <li class="breadcrums-item">
           <a class="breadcrums-link"> Каталог</a>
@@ -66,25 +69,35 @@
               <label class="control">
                 <input class="control-input" type="checkbox" name="wi-fi"> wi-fi</label>
             </li>
+            </ul>
         </fieldset>
         <fieldset class="catalog-filter-group">
           <legend class="catalog-fielder-title"> Тип жилья </legend>
-        </form>
-
+           </form>
           <li class="catalog-fielter-item">
             <label class="control">
-              <input class="control-input" type="checkbox" name="hostel"> гостиница </label>
+              <input class="control-input" type="checkbox" name="hostel"> Гостиница </label>
           </li>
           <li class="catalog-fielter-item">
             <label class="control">
-              <input class="control-input" type="checkbox" name="motel"> мотель </label>
+              <input class="control-input" type="checkbox" name="motel"> Мотель </label>
           </li>
           <li class="catalog-fielter-item">
             <label class="control">
-              <input class="control-input" type="checkbox" name="apartments"> апартаменты </label>
+              <input class="control-input" type="checkbox" name="apartments"> Апартаменты </label>
           </li>
         </fieldset>
 
+<fieldset class="hotels-filter-group">
+<legend class="hotels-filter-title"> Стоимость,₽:</legend>
+<lable> <input class="price-min" type="number" min="0" max="90000" value="0" step="100" name="from"> от </lable>
+<lable> <input class="price-max" type="number" min="0" max="90000" value="90000" step="100" name="from"> до </lable>
+<div class="line"> </div>
+<button class="button apply-button" type="submit"> Применить </button>
+<button class="button reset-button" type="submit"> Сбросить </button>
+</fieldset>
+
+<p>Найдено гостиниц:38</p>
         <select class="select-control" aria-lablel="Сортировка">
           <option value="cheap"> Сначала дешевое </option>
           <option value="popular"> Сначала популярное </option>
@@ -101,7 +114,7 @@
         </a>
         <div class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="images/hotel-1.jpg"  width="300" height="212" alt="гостиница Amara">
             <h3 class="product-card-title">Amara Resort&Spa </h3>
           </a>
           <b class="product-card-price">Гостиница От 4000 р </b>
@@ -113,6 +126,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images/hotel-2.jpg"  width="300" height="212" alt="гостиница Villas">
               <h3 class="product-card-title"> Villas at Poco Diablo </h3>
             </a>
             <b class="product-card-price">Гостиница От 5000 р </b>
@@ -122,6 +136,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images/hotel-3.jpg"  width="300" height="212" alt="гостиница Desert">
               <h3 class="product-card-title">Desert Quail Inn </h3>
             </a>
             <b class="product-card-price">Гостиница От 2500 р </b>
@@ -132,6 +147,7 @@
           <li class="product-card">
             <a class="product-card-link" href="product.html">
               <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images/hotel-4.jpg"  width="300" height="212" alt="гостиница GreenTree">
               <h3 class="product-card-title">GreenTree Inn </h3>
             </a>
             <b class="product-card-price">Гостиница От 1500 р </b>
@@ -174,7 +190,7 @@
         </li>
         <li class="footer-social-item">
           <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-            <span class="visually-hidden">Ютуб</span>
+            <span class="visually-hidden"> Ютуб </span>
           </a>
         </li>
       </ul>
