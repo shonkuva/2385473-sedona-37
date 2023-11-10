@@ -1,3 +1,23 @@
+@font-face{
+  font-family: "PT Sant";
+  font-style: normal;
+  font-weight: 400;
+  src: url("roject/styles/styles.css")format("woff2");
+  font-display: swap;
+}
+@font-face{
+  font-family: "PT Sant";
+  font-style: normal;
+  font-weight: 700;
+  src: url("roject/styles/styles.css")format("woff2");
+  font-display: swap;
+}
+
+
 body {
-  background-color:tomato;
+  font-family: "PT Sant"; sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color:#FFFFFF;
+  color:black
 }
