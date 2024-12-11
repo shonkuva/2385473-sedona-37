@@ -2,22 +2,92 @@
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 400;
-  src: url("roject/styles/styles.css")format("woff2");
+  src: url("../fonts/pt-sants-regular.woff2")format("woff2");
   font-display: swap;
 }
 @font-face{
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 700;
-  src: url("roject/styles/styles.css")format("woff2");
+  src: url("../fonts/pt-sants-bolt.woff2")format("woff2");
   font-display: swap;
 }
 
 
 body {
-  font-family: "PT Sant"; sans-serif;
+  font-family: "PT Sant", Arial,sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color:#FFFFFF;
+  background-color:hsla(150, 23%, 95%, 0.979);
   color:black
+}
+.navigation-item{
+width: 93 px;
+height: 24 px;
+}
+.logo-img {
+height: 70 px;
+width: 139 px;
+
+}
+.navigation {
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+display: flex;
+margin: 0%;
+color:black
+}
+
+.navigation-link{
+font-weight: 700;
+font-size: 20 px;
+line-height: 24 px;
+text-decoration: none;
+color: black;
+}
+
+.button {
+  background-color:hsla;
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 24px;
+  text-decoration: none;
+  color:rgba(177, 14, 14, 0.986)
+  }
+  .navigation-item {
+    height: 485 px;
+    width: 36 px;
+    }
+    .main {
+      min-height: 485 px;
+      background:hsla;
+      background-image: url("../images/welcome.svg")format("woff2");;
+      }
+
+    .advantages{
+font-weight: 700;
+font-size: 30 px;
+line-height: 36 px;
+text-transform: uppercase;
+    }
+    .advantages-description{
+      font-weight: 400;
+      font-size: 22 px;
+      line-height: 36 px;
+      text-transform: uppercase;
+          }
+.visually-hidden{
+
+  position: absolute;
+  width: 1 px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
