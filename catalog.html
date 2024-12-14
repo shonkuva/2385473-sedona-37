@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title> Седона-Гостиницы</title>
+    <title> Гостиницы Седоны </title>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <header class="page-header">
@@ -14,11 +14,10 @@
           </a>
         </li>
         <li>
-          <a href="about.html"> О Седон е
+          <a href="about.html"> О Седоне
           </a>
         </li>
         <li class="navigation-item">
-
           <a class="navigation-link-current" href="catalog.html"> Гостиницы
           </a>
         </li>
@@ -35,6 +34,7 @@
         </li>
         <li>
           <a href="#"> <span class="visually-hidden"> хочу сюда </span>
+             <!-- <button class="button-header-index"  type="submit"> Хочу сюда </button>-->
           </a>
         </li>
       </ul>
@@ -43,15 +43,16 @@
 
   <main class="main-inner">
     <header class="inner-header">
-      <h1 class="inner-header-title"> Гостиницы</h1>
+      <h2 class="inner-header-title"> Гостиницы Седоны </h2>
       <ul class="breadcrums">
         <li class="breadcrums-item">
           <a class="breadcrums-link" href="index.html"> Главная</a>
         </li>
         <li class="breadcrums-item">
-          <a class="breadcrums-link"> Каталог</a>
+          <a class="breadcrums-link"> Каталог </a>
         </li>
       </ul>
+
     </header>
     <section class="catalog-products">
       <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
@@ -93,12 +94,42 @@
 
 <fieldset class="hotels-filter-group">
 <legend class="hotels-filter-title"> Стоимость,₽:</legend>
+<div class="range"></div>
 <lable> <input class="price-min" type="number" min="0" max="90000" value="0" step="100" name="from"> от </lable>
 <lable> <input class="price-max" type="number" min="0" max="90000" value="90000" step="100" name="from"> до </lable>
 <div class="line"> </div>
 <button class="button apply-button" type="submit"> Применить </button>
 <button class="button reset-button" type="submit"> Сбросить </button>
 </fieldset>
+
+<!--
+
+<fieldset class="hotels-filter-group">
+  <legend class="hotels-filter-title"> Стоимость,₽:</legend>
+  <div class="range">
+  <lable class="range-field">
+    <span class="range-title"> от </span>
+    <input class="price-min" type="number" min="0" max="90000" value="0" step="100" name="from"> от </lable>
+
+    <lable class="range-field">
+      <span class="range-title"> до </span>
+      <input class="price-max" type="number" min="0" max="10000" value="9000" step="100" name="from"> от </lable>
+
+      <div class="range-slider">
+     <div class="slider-bar">
+      <button class="slider-thumb"  type="button"> <span class="visually-hidden"> Ручка минимальной цены</span> </button>
+      <button class="slider-thumb"  type="button"> <span class="visually-hidden"> Ручка максимальной цены</span> </button>
+     </div>
+      </div>
+
+  <lable> <input class="price-max" type="number" min="0" max="90000" value="90000" step="100" name="from"> до </lable>
+  <div class="line"> </div>
+  <button class="button apply-button" type="submit"> Применить </button>
+  <button class="button reset-button" type="submit"> Сбросить </button>
+  </fieldset> -->
+
+</div>
+
 
 <p>Найдено гостиниц:38</p>
         <select class="select-control" aria-lablel="Сортировка">
