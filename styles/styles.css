@@ -2,37 +2,129 @@
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sants-regular.woff2")format("woff2");
+  src: url("../fonts/pt-sants-400.woff2")format("woff2");
   font-display: swap;
 }
 @font-face{
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sants-bolt.woff2")format("woff2");
+  src: url("../fonts/pt-sants-700.woff2")format("woff2");
   font-display: swap;
 }
 
+.about-sedona{
+background-image: url("../images/index-background-hero.jpg");
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: left top;
+}
+.welcome{
+  display: block;
+  margin: auto;
+  padding: 51px 20px 87px;
+}
+.description-sedona{
+  text-align: center;
+  padding: 69px 0px;
+  margin: 0 0 25px;
+  background: #F2F2F2;
+}
+.p-description-sedona{
+  margin: 0%;
+}
+
+.advantages-list-main{
+margin: 0%;
+padding: 0%;}
+
+.collection-contact{
+  margin : 0;
+  padding: 96px 0 ;
+  background:#F2F2F2;
+  text-align:center;
+}
+.p-collection-contact{
+  max-width: 592px;
+  margin: auto;
+}
+
+.search-sedona{
+  display: flex;
+  height: 52px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #756157;
+  border: 4px;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  box-sizing: border-box;
+  margin:54px auto 0;
+
+}
+.newsletter{
+  margin : 0;
+  padding: 96px 0 ;
+  text-align:center;
+  background: url("../images/subscribe-letter.png")format("woff2")
+}
+.button-newsletter-button{ 
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  font-family:inherit ;
+  display: flex;
+  height: 52px;
+  width: 232px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #82B3D3;
+  border: 4px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 8px 50px; 
+  margin:54px auto 0;
+}
+
+.button-newsletter-email{display: flex;
+  height: 52px;
+  width: 52px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #a10b4a;
+  border: 4px;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  box-sizing: border-box;
+  margin:54px auto 0;
+  }
 
 body {
   font-family: "PT Sant", Arial,sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color:hsla(150, 23%, 95%, 0.979);
-  color:black
+  font-weight: 400;
+  font-style: normal;
+  background-color:#F2F2F2(150, 23%, 95%, 0.979);
+  color:#222(211, 31, 31)
 }
-.navigation-item{
-width: 93 px;
-height: 24 px;
-}
-.logo-img {
-height: 70 px;
-width: 139 px;
 
+.navigation-item{ 
+width: 93px;
+height: 24px;
 }
+
 .navigation {
-font-weight: 700;
-font-size: 20px;
+font-weight:700;
+font-size:20px;
 line-height: 24px;
 text-decoration: none;
 display: flex;
@@ -42,8 +134,8 @@ color:black
 
 .navigation-link{
 font-weight: 700;
-font-size: 20 px;
-line-height: 24 px;
+font-size: 20px;
+line-height: 24px;
 text-decoration: none;
 color: black;
 }
@@ -57,29 +149,53 @@ color: black;
   color:rgba(177, 14, 14, 0.986)
   }
   .navigation-item {
-    height: 485 px;
-    width: 36 px;
+    height: 485px;
+    width: 36px;
     }
-    .main {
-      min-height: 485 px;
-      background:hsla;
-      background-image: url("../images/welcome.svg")format("woff2");;
+  .main {
+    min-height: 485px;
+    background:#F2F2F2;
+    background-image: url("../images/welcome_continuation.svg")format("woff2");
       }
 
     .advantages{
-font-weight: 700;
-font-size: 30 px;
-line-height: 36 px;
-text-transform: uppercase;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 36px;
+   color: #222;
     }
-    .advantages-description{
-      font-weight: 400;
-      font-size: 22 px;
-      line-height: 36 px;
-      text-transform: uppercase;
-          }
-.visually-hidden{
 
+    .advantages-description{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    padding: 64px 0 64px; }
+    .h3-advantages-dark {
+      color: #FFFFFF;
+      background:#82B3D3;
+      width: 175px;
+      height: 56px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+     line-height: 28px;
+     text-align: center;
+     text-transform: uppercase;
+    }
+    .h3-advantages-dark-p
+    {
+      color: #FFFFFF;
+      background:#82B3D3;
+      width: 175px;
+      height: 56px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+     line-height: 21px;
+     text-align: center;
+    }
+   
+.visually-hidden{
   position: absolute;
   width: 1 px;
   height: 1px;
@@ -90,4 +206,20 @@ text-transform: uppercase;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.advantages-list-main{
+  display: block;
+  margin: auto;
+}
+
+h3-advantages{
+  display: block;
+  margin: auto;
+}
+
+h3-advantages{
+  display: block;
+  margin: auto;
+  text-align:center;
 }
