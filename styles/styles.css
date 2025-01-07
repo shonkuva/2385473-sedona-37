@@ -2,19 +2,66 @@
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sants-400.woff2")format("woff2");
+  src: url("../fonts/ptsans-400.woff2")format("woff2");
   font-display: swap;
 }
 @font-face{
   font-family: "PT Sant";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sants-700.woff2")format("woff2");
+  src: url("../fonts/ptsans-700.woff2")format("woff2");
   font-display: swap;
 }
 
+
+body {
+  font-family: "PT Sant", Arial,sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+  background-color:#F2F2F2(150, 23%, 95%, 0.979);
+  color:#222(211, 31, 31);
+  box-sizing: border-box;
+}
+
+
+.navigation {
+font-weight:700;
+font-size:20px;
+line-height: 24px;
+text-decoration: none;
+display: flex;
+margin: 0%;
+color:black
+}
+
+.navigation-link{
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+color: black;
+}
+
+.button {
+  background-color:hsla;
+  font-size: 20px;
+  border-radius: 4px;
+  line-height: 24px;
+  text-decoration: none;
+  color:rgba(177, 14, 14, 0.986)
+  }
+
+  .main {
+    min-height: 485px;
+    background:#F2F2F2;
+    background-image: url("../images/welcome_continuation.svg")format("woff2");
+      }
+
+
 .about-sedona{
-background-image: url("../images/index-background-hero.jpg");
+background-image: url("../images/index-background.jpg");
 background-size:cover ;
 background-repeat: no-repeat;
 background-position: left top;
@@ -71,7 +118,7 @@ padding: 0%;}
   text-align:center;
   background: url("../images/subscribe-letter.png")format("woff2")
 }
-.button-newsletter-button{ 
+.button-newsletter-button{
   text-align: center;
   font-size: 20px;
   line-height: 36px;
@@ -88,7 +135,7 @@ padding: 0%;}
   border: 4px;
   text-transform: uppercase;
   box-sizing: border-box;
-  padding: 8px 50px; 
+  padding: 8px 50px;
   margin:54px auto 0;
 }
 
@@ -107,94 +154,16 @@ padding: 0%;}
   margin:54px auto 0;
   }
 
-body {
-  font-family: "PT Sant", Arial,sans-serif;
-  font-size: 18px;
-  line-height: 21px;
-  font-weight: 400;
-  font-style: normal;
-  background-color:#F2F2F2(150, 23%, 95%, 0.979);
-  color:#222(211, 31, 31)
-}
-
-.navigation-item{ 
-width: 93px;
-height: 24px;
-}
-
-.navigation {
-font-weight:700;
-font-size:20px;
-line-height: 24px;
-text-decoration: none;
-display: flex;
-margin: 0%;
-color:black
-}
-
-.navigation-link{
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-text-decoration: none;
-color: black;
-}
-
-.button {
-  background-color:hsla;
-  font-size: 20px;
-  border-radius: 4px;
-  line-height: 24px;
-  text-decoration: none;
-  color:rgba(177, 14, 14, 0.986)
-  }
-  .navigation-item {
-    height: 485px;
-    width: 36px;
-    }
-  .main {
-    min-height: 485px;
-    background:#F2F2F2;
-    background-image: url("../images/welcome_continuation.svg")format("woff2");
-      }
-
     .advantages{
    font-weight: 700;
    font-size: 30px;
    line-height: 36px;
    color: #222;
+   display: block;
     }
 
-    .advantages-description{
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
-    padding: 64px 0 64px; }
-    .h3-advantages-dark {
-      color: #FFFFFF;
-      background:#82B3D3;
-      width: 175px;
-      height: 56px;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 24px;
-     line-height: 28px;
-     text-align: center;
-     text-transform: uppercase;
-    }
-    .h3-advantages-dark-p
-    {
-      color: #FFFFFF;
-      background:#82B3D3;
-      width: 175px;
-      height: 56px;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-     line-height: 21px;
-     text-align: center;
-    }
-   
+
+
 .visually-hidden{
   position: absolute;
   width: 1 px;
@@ -207,19 +176,71 @@ color: black;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
+.appoitment-title {
+display: flex;
+}
 .advantages-list-main{
-  display: block;
+  display: flex;
   margin: auto;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.about-item{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  max-width: 175px;
+  padding: 102px 85px;
+}
+.advantages-dark{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  display: flex;
+}
+.h3{margin: 0 0 30px;
+text-align: center;}
+
+.div.{
+  padding: 112px 85px;
+  text-align: center;
+  max-width: 400 px;
+  box-sizing: border-box;
+}
+.h3-light{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+.advantages-description-light{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #333333;
 }
 
-h3-advantages{
-  display: block;
-  margin: auto;
+.h3-advantages-dark {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
 }
-
-h3-advantages{
-  display: block;
-  margin: auto;
-  text-align:center;
+.p-advantages-dark{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
 }
