@@ -89,6 +89,7 @@ color: #FFFFFF;
   }
 
   .main {
+    flex-grow: 1;
     min-height: 485px;
     background:#F2F2F2;
     background-image: url("../images/welcome_continuation.svg")format("woff2");
@@ -105,9 +106,9 @@ background-position: left top;
   margin: auto;
   padding: 51px 20px 87px;
 }
-.description-sedona{
+.description-sedona-h2{
   text-align: center;
-  padding: 69px 0px;
+  padding: 69px  25px 0px;
   margin: 0 0 25px;
   background: #FFFFFF;
   color: #000000;
@@ -117,14 +118,19 @@ background-position: left top;
   font-size: 30px;
   line-height: 36px;
 }
-.p-description-sedona{
-  margin: 0%;
-}
 
-
-.advantages-list-main{
+.description-sedona-p{
 margin: 0%;
-padding: 0%;}
+padding: 0px 274px;
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+
+}
 
 .collection-contact{
   margin : 0;
@@ -152,78 +158,7 @@ padding: 0%;}
   margin:54px auto 0;
 
 }
-.newsletter{
-  margin : 0;
-  padding: 96px 0 ;
-  text-align:center;
-  background: url("../images/subscribe-letter.png")format("woff2")
-}
-.button-newsletter-button{
-  text-align: center;
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 700;
-  font-family:inherit ;
-  display: flex;
-  height: 52px;
-  width: 232px;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #fff;
-  background: #82B3D3;
-  border: 4px;
-  text-transform: uppercase;
-  box-sizing: border-box;
-  padding: 8px 50px;
-  margin:54px auto 0;
-}
 
-.button-newsletter-email{display: flex;
-  height: 52px;
-  width: 52px;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: #fff;
-  background: #a10b4a;
-  border: 4px;
-  text-transform: uppercase;
-  padding: 8px 50px;
-  box-sizing: border-box;
-  margin:54px auto 0;
-  }
-
-    .advantages{
-   font-weight: 700;
-   font-size: 30px;
-   line-height: 36px;
-   color: #222;
-   display: block;
-   text-align: center;
-   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  background: #FFFFFF;
-
-    }
-
-.advantages-img{
-background: url(photo-1.jpg);
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-
-}
-.advantages-midle{
-flex: none;
-order: 1;
-flex-grow: 0;
-background: #83B3D333;
-color: #000000;
-}
 
 .visually-hidden{
   position: absolute;
@@ -240,33 +175,90 @@ color: #000000;
 .appoitment-title {
 display: flex;
 }
+
+.advantages-dark-first{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  max-width: 175px;
+  padding: 102px 85px;
+}
+
+.advantages-dark-last{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  max-width: 175px;
+  padding: 102px 85px;
+}
+
+.advantages{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222;
+  display: block;
+  text-align: center;
+  display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 0px;
+ background: #FFFFFF;
+
+   }
+
+.advantages-midle{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 103px 85px;
+background: rgba(131, 179, 211, 0.2);
+}
+
 .advantages-list-main{
   display: flex;
   margin: auto;
   flex-wrap: wrap;
   list-style-type: none;
 }
-.about-item{
-  background-color: #82B3D3;
-  color: #FFFFFF;
-  max-width: 175px;
-  padding: 102px 85px;
-}
+
 .advantages-dark{
   background-color: #82B3D3;
   color: #FFFFFF;
   display: flex;
- 
+
     flex-direction: column;
 }
-.advantages-light{
-flex: none;
-order: 0;
-flex-grow: 0;
-background: #83B3D31F;
-color: #000000;
+
+.advantages-light-first{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(131, 179, 211, 0.12);
+max-width: 175px;
+padding: 102px 85px;
 
 }
+.advantages-light-midle{
+max-width: 175px;
+padding: 102px 85px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-light-last{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 103px 85px;
+background: rgba(131, 179, 211, 0.12);
+max-width: 175px;
+  }
+
 
 .h3{margin: 0 0 30px;
 text-align: center;}
@@ -318,32 +310,11 @@ color: #FFFFFF;
 }
 
 .welcome-sedona{
-  
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 64px 0px;
-gap: 20px;
-
-
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
-
-}
-
-.h2{
- 
-font-family: 'PT Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
-text-transform: uppercase;
-color: #000000;
 
 }
 
@@ -355,5 +326,116 @@ font-size: 22px;
 line-height: 26px;
 text-align: center;
 color: #333333;
-
+margin: 20px 7.5px;
 }
+.home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 81px 85px;
+background: rgba(131, 179, 211, 0.12);
+margin:  81px 85px;
+}
+
+.food{
+  contain: ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px 85px;
+}
+.present{
+background: rgba(131, 179, 211, 0.12);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 80px 85px;
+background: rgba(131, 179, 211, 0.12);
+}
+
+.services-title{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #000000;
+}
+
+.advantages-description{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #333333;
+}
+
+.p-newsletter{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.h2-newsletter{
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+
+.newsletter{
+  margin : 0;
+  padding: 96px 0 ;
+  text-align:center;
+  background-image: url("../images/subscribe-letter.png");
+}
+.button-newsletter-button{
+  text-align: center;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  font-family:inherit ;
+  display: flex;
+  height: 52px;
+  width: 232px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #82B3D3;
+  border: 4px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  padding: 8px 50px;
+  margin:54px auto 0;
+}
+
+.button-newsletter-email{display: flex;
+  height: 52px;
+  width: 52px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  background: #a10b4a;
+  border: 4px;
+  text-transform: uppercase;
+  padding: 8px 50px;
+  box-sizing: border-box;
+  margin:54px auto 0;
+  }
