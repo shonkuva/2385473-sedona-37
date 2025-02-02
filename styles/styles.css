@@ -22,16 +22,22 @@ body {
   background-color:#F2F2F2(150, 23%, 95%, 0.979);
   color:#000000;
   box-sizing: border-box;
-  height: 100%;
+
   min-height: 100%;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
- display: grid;
  margin: 40px;
+ min-height: 100%;
 }
 
+.main-index {
+  flex-grow: 1;
+  max-width: 1200px;
+
+}
 html{
   height: 100%;
   min-height: 100%;
+  max-width: 1200px;
 }
 
 .page-header{
@@ -48,6 +54,7 @@ display: flex;
 margin: 0%;
 color:#000000;
 align-items: center;
+max-width: 1200px;
 
 }
 
@@ -167,11 +174,10 @@ background-color: #F2F2F2;
 
 .description-sedona{
   padding:  69px 290px 126px 290px;
+  max-width: 1200 px;
 }
 .description-sedona-h2{
   text-align: center;
-
-  margin: 69px 290px 25px;
   background: #FFFFFF;
   color: #000000;
   font-family: 'PT Sans';
@@ -246,6 +252,7 @@ display: flex;
   max-width: 175px;
   padding: 102px 84px;
   display: flex;
+  justify-content: space-between;
 }
 
 .advantages-dark-last{
@@ -254,6 +261,7 @@ display: flex;
   max-width: 400px;
   padding: 102px 75px;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .advantages{
@@ -264,11 +272,13 @@ display: flex;
   display: flex;
   text-align: center;
   display: flex;
+  justify-content: space-between;
  flex-direction: column;
  align-items: flex-start;
  padding: 0px;
  background: #FFFFFF;
  flex-direction: row;
+ max-width: 1200px;
    }
 
 .advantages-midle{
@@ -278,6 +288,7 @@ justify-content: center;
 align-items: center;
 padding: 103px 85px;
 background: rgba(131, 179, 211, 0.2);
+justify-content: space-between;
 }
 
 .advantages-list-main{
@@ -292,7 +303,7 @@ background: rgba(131, 179, 211, 0.2);
   background-color: #82B3D3;
   color: #FFFFFF;
   display: flex;
-
+  justify-content: space-between;
     flex-direction: column;
 }
 
@@ -305,6 +316,7 @@ background: rgba(131, 179, 211, 0.12);
 max-width: 400px;
 padding: 100px 75px;
 box-sizing: border-box;
+justify-content: space-between;
 }
 
 .advantages-light-midle{
@@ -316,6 +328,7 @@ justify-content: center;
 align-items: center;
 background: rgba(131, 179, 211, 0.2);
 box-sizing: border-box;
+justify-content: space-between;
 }
 
 .advantages-light-last{
@@ -327,6 +340,7 @@ padding: 100px 75px;
 background: rgba(131, 179, 211, 0.12);
 max-width: 400px;
 box-sizing: border-box;
+justify-content: space-between;
   }
 
 
@@ -688,3 +702,22 @@ text-align: center;
 background-color: F2F2F2;
   padding: 11px 12px;
  }
+
+ .page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+ }
+
+ .footer-social-list{
+  margin: 0 auto;
+width: 142px;
+ }
+ .footer-phone{
+  margin: 0 auto;
+  width: 331px;
+   }
+   .footer-logo{
+    margin: 0 auto;
+    width: 115px;
+     }
