@@ -13,7 +13,7 @@
         </a>
         <ul class="navigation-list-header">
           <li  class="navigation-item-header">
-            <a href="main.html"> Главное
+            <a class="a" href="main.html"> Главное
           </a>
         </li>
           <li class="navigation-item-header">
@@ -25,28 +25,29 @@
             </a>
           </li>
         </ul>
-        <ul class="navigation-list navigation-user">
+        <ul class="navigation-list-navigation-user">
           <li class="navigation-item-user">
             <a href="#">
-              <span class="visually-hidden"> поиск </span>
+              <span > поиск </span>
             </a>
           </li>
           <li class="navigation-item-like">
-            <a href="#"> <span class="visually-hidden"> избранное </span>
+            <a href="#"> <span > избранное </span>
             </a>
           </li>
         </ul>
-            <a class="visually-hidden must" href="#">хочу сюда</a>
+            <a class="button-must"   href="#">хочу сюда</a>
 
       </nav>
     </header>
+    <div class="page-conteiner">
     <main class="main-index">
       <section class="about-sedona">
       <img class="welcome" src="images/welcome.svg"  width="458" height="352"  alt="WELCOME TO THE GARGEAUS">
       <h1 class="visually-hidden"> Сайт о Седоне </h1>
       </section>
       <section class="description-sedona">
-      <h2 class="description-sedona-h2">Седона-небольшой городок в Аризоне, больщего</h2>
+      <h2 class="description-sedona-h2">Седона — небольшой городок в Аризоне ,<br> заслуживающий большего!</h2>
       <p class="description-sedona-p"> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон</p>
       </section>
 
@@ -80,9 +81,7 @@
               <p class="advantages-description-light">
                 Большинство едет в Гранд Каньон и толпится там </p>
               </div>
-                <a>
                   <img class="advantages" src="images/photo-2.jpg" width="1200" height="385" alt="Предпоследняя картинка фотогалереи главной страницы"> </li>
-               </a>
         </li>
         <li >
           <div class="advantages-dark-last">
@@ -95,31 +94,27 @@
       </section>
         <section class="welcome-sedona">
           <h2 class="h2"> Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p class="advantages-description">
-            <p > Опытный персонал и качественное обслуживание!</p>
-            <div class="home">
-            <li>
+
+            <p class="advantages-description"> Опытный персонал и качественное обслуживание!</p>
+
+            <ul class="li-fact">
+            <li class="home">
               <h3 class="services-title">Жилье </h3>
                 <p class="advantages-description">
-                  Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                  Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
               </li>
-            </div>
-            <div class="food">
-              <li>
+
+
+              <li class="food">
               <h3 class="services-title">Еда</h3>
                 <p class="advantages-description">
-                  Всегда заказывайте
-                топовый фирменный бургер, вы не разочаруетесь!</p>
+                  Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
               </li>
-             </div>
-             <div class="present">
-              <li>
+              <li class="present">
               <h3 class="services-title"> Сувениры</h3>
                 <p class="advantages-description">
-                 Не только китайского,
-                но и настоящего местного производства!</p>
+                 Не только китайского, но и настоящего местного производства!</p>
           </li>
-        </div>
 
         </ul>
         </section>
@@ -136,17 +131,19 @@
 <p class="p-newsletter">
   Только полезная информация и никакого спама, честное бойскаутское!
 </p>
-            <label for="email">
+            <label class="visually-hidden" for="email">
               Подписаться
             </label>
-            <input class="button-newsletter-email" plasehoder="email@exemple.com" type="email" name="newsletter-email" id="newsletter-email"
-              required>
+            <form><input class="button-newsletter-email" plasehoder="email@exemple.com" type="email" name="newsletter-email" id="newsletter-email"
+              required></form>
+              <p class="user-email-letter">Ваш email</p>
           <button class="button-newsletter-button" type="submit"> Подписаться </button>
           </form>
         </section>
       </main>
+    </div>
       <footer class="page-footer">
-        <seсtion class="footer-social">
+
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href="https://vk.com/htmlacademy">
@@ -164,15 +161,11 @@
               </a>
             </li>
           </ul>
-          </setion>
-          <section class="number-phone-footer">
             <a class="footer-phone" href="+7(812)8121212">+7(812)8121212</a>
-             </section>
-             <section>
               <a class="footer-logo" href="https://htmlacademy.ru/">
               <img class="footer-logo" src="#" alt="Разработано в html Academy">
               </a>
-               </section>
+
       </footer>
 
     </body>
