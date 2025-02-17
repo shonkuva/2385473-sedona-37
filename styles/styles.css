@@ -154,22 +154,13 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-.button {
-  background-color:hsla;
-  font-size: 20px;
-  border-radius: 4px;
-  line-height: 24px;
-  text-decoration: none;
-  color:rgba(177, 14, 14, 0.986)
-
-  }
 
   .main {
     flex-grow: 1;
     min-height: 485px;
     background:#F2F2F2;
     background-image: url("../images/welcome_continuation.svg")format("woff2");
-      }
+  }
 
 .about-sedona{
 background-image: url("../images/background.png");
@@ -265,12 +256,10 @@ display: flex;
 }
 
 .advantages-img{
-
-  display: flex;
+display: flex;
+min-height: 100%;
 
 }
-
-
 
 .advantages-dark-first{
   background-color: #82B3D3;
@@ -360,6 +349,7 @@ max-width: 400px;
 padding: 65px 80px;
 box-sizing: border-box;
 justify-content: space-between;
+height: 100%;
 }
 
 .advantages-light-midle{
@@ -374,6 +364,7 @@ box-sizing: border-box;
 justify-content: space-between;
 }
 
+
 .advantages-light-last{
 display: flex;
 flex-direction: column;
@@ -385,6 +376,7 @@ max-width: 400px;
 box-sizing: border-box;
 justify-content: space-between;
   }
+
 .adv-img-last{
   display: flex;
 }
@@ -422,6 +414,7 @@ line-height: 28px;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
+height: 100%;
 }
 .p-advantages-dark{
 font-family: 'PT Sans';
@@ -730,7 +723,6 @@ text-align: center;
   padding: 8px 57px ;
   border: 4px;
 
-
  }
 
  .product-card-button-button{
@@ -744,7 +736,6 @@ text-align: center;
   background-color: #756157;
 
  }
-
 
  .product-card-button-button-like{
   font-weight: 700;
@@ -765,8 +756,6 @@ text-align: center;
 display: flex;
 
  }
-
-
 
  .pagination{
   font-weight: 700;
